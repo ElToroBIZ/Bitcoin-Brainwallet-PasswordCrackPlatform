@@ -54,29 +54,7 @@ public class Main {
         BufferedReader sixth = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk7.txt"));
         BufferedReader seventh = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk8.txt"));
         BufferedReader eight = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk9.txt"));
-        BufferedReader nine = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk10.txt"));
-        BufferedReader ten = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk11.txt"));
-        BufferedReader eleven = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk12.txt"));
-        BufferedReader twelve = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk13.txt"));
-        BufferedReader thirteen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk14.txt"));
-        BufferedReader fourteen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk15.txt"));
-        BufferedReader fifteen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk16.txt"));
-        BufferedReader sixteen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk1.txt"));
-        BufferedReader seventeen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk2.txt"));
-        BufferedReader eighteen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk3.txt"));
-        BufferedReader nineteen = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk4.txt"));
-        BufferedReader twenty = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk5.txt"));
-        BufferedReader twentyone = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk6.txt"));
-        BufferedReader twentytwo = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk7.txt"));
-        BufferedReader twentythree = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk8.txt"));
-        BufferedReader twentyfour = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk9.txt"));
-        BufferedReader twentyfive = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk10.txt"));
-        BufferedReader twentysix = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk11.txt"));
-        BufferedReader twentyseven = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk12.txt"));
-        BufferedReader twentyeight = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk13.txt"));
-        BufferedReader twentynine = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk14.txt"));
-        BufferedReader thirty = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk15.txt"));
-        BufferedReader thirtyone = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk16.txt"));
+        
 
         while (counter < 999) {
             String line0 = zero.readLine();
@@ -88,29 +66,7 @@ public class Main {
             String line6 = sixth.readLine();
             String line7 = seventh.readLine();
             String line8 = eight.readLine();
-            String line9 = nine.readLine();
-            String line10 = ten.readLine();
-            String line11 = eleven.readLine();
-            String line12 = twelve.readLine();
-            String line13 = thirteen.readLine();
-            String line14 = fourteen.readLine();
-            String line15 = fifteen.readLine();
-            String line16 = sixteen.readLine();
-            String line17 = seventeen.readLine();
-            String line18 = eighteen.readLine();
-            String line19 = nineteen.readLine();
-            String line20 = twenty.readLine();
-            String line21 = twentyone.readLine();
-            String line22 = twentytwo.readLine();
-            String line23 = twentythree.readLine();
-            String line24 = twentyfour.readLine();
-            String line25 = twentyfive.readLine();
-            String line26 = twentysix.readLine();
-            String line27 = twentyseven.readLine();
-            String line28 = twentyeight.readLine();
-            String line29 = twentynine.readLine();
-            String line30 = thirty.readLine();
-            String line31 = thirtyone.readLine();
+
 
             StringBuilder str0 = new StringBuilder(line0);
             str0.setLength(34);
