@@ -39,7 +39,6 @@ public class BalanceGetter {
             }
         }
 
-       
         if (balance.contains("<divclass=\"col-md-3\"id=\"transaction_times_last\">")) {
             return "fail";
 

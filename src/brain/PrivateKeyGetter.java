@@ -1,7 +1,4 @@
-
 package brain;
-
-
 
 import static brain.Sha256KryptoGrafisi.getSha256;
 import java.io.IOException;
@@ -14,9 +11,8 @@ import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.params.MainNetParams;
 
 public class PrivateKeyGetter {
-     public static String AddressSt;
-    
-    
+
+    public static String AddressSt;
 
     public static String PrivateKeyGetter(String rest) throws IOException {
         NetworkParameters mainNet = MainNetParams.get();
@@ -32,9 +28,8 @@ public class PrivateKeyGetter {
         String wif3 = Base58.encode(bytes);
         Address s = key.toAddress(mainNet);
         String Stringed = s.toString();
-        
-       
+
         return wif3;
     }
-      
+
 }

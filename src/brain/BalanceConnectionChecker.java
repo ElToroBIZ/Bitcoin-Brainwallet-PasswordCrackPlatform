@@ -12,13 +12,12 @@ public class BalanceConnectionChecker {
             x = Balancer(x);
         }
         double value = Double.parseDouble(x);
-      if (value>=0.000001){
-            while (true){
-       
-              x = null;
+        if (value >= 0.000001) {
+            while (true) {
+
+                x = null;
             }
         }
-         
 
         return x;
 

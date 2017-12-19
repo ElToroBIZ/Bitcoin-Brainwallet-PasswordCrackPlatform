@@ -1,6 +1,5 @@
 package brain;
 
-
 import static brain.Sha256KryptoGrafisi.getSha256;
 import java.io.IOException;
 import java.math.BigInteger;
@@ -12,8 +11,8 @@ import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.params.MainNetParams;
 
 public class AddressGenerator {
-     public static String AddressSt;
-   
+
+    public static String AddressSt;
 
     public static String AddressGenerator(String rest) throws IOException {
         NetworkParameters mainNet = MainNetParams.get();
@@ -30,9 +29,8 @@ public class AddressGenerator {
         String wif3 = Base58.encode(bytes);
         Address s = key.toAddress(mainNet);
         String Stringed = s.toString();
-        
-       
+
         return newline;
     }
-      
+
 }

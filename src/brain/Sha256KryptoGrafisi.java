@@ -1,4 +1,3 @@
-
 package brain;
 
 import java.security.MessageDigest;

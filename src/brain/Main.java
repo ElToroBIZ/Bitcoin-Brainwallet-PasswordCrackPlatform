@@ -1,4 +1,3 @@
-
 package brain;
 
 import static brain.FinalPrinter.ROWER;
@@ -54,7 +53,6 @@ public class Main {
         BufferedReader sixth = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk7.txt"));
         BufferedReader seventh = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk8.txt"));
         BufferedReader eight = new BufferedReader(new FileReader("C:\\Users\\Dell\\Desktop\\splitted\\disk9.txt"));
-        
 
         while (counter < 999) {
             String line0 = zero.readLine();
@@ -66,7 +64,6 @@ public class Main {
             String line6 = sixth.readLine();
             String line7 = seventh.readLine();
             String line8 = eight.readLine();
-
 
             StringBuilder str0 = new StringBuilder(line0);
             str0.setLength(34);
@@ -114,7 +111,7 @@ public class Main {
             adds6[counter_1] = line6;
             adds7[counter_1] = line7;
             adds8[counter_1] = line8;
-            
+
             counter++;
             counter_1++;
 
@@ -153,7 +150,7 @@ public class Main {
                     try {
                         long tStart = System.currentTimeMillis();
                         ggg1++;
-                        System.out.println(gens);
+                       System.out.println("ACCOUNTS GENERATED:  #" + gens);
                         ROWER(adds1[ggg1]);
 
                         long tEnd = System.currentTimeMillis();
@@ -341,10 +338,9 @@ public class Main {
             thread6.join();
             thread7.join();
             thread8.join();
-            
 
         }
-        System.out.println("ACCOUNTS GENERATED:  #"+gens);
+        
     }
 
 }
