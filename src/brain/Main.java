@@ -1,7 +1,7 @@
 
 package brain;
 
-import static brain.Row.ROWER;
+import static brain.FinalPrinter.ROWER;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;

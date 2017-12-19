@@ -3,7 +3,7 @@ package brain;
 import static brain.BalanceGetter.Balancer;
 import java.io.IOException;
 
-public class errorsolver {
+public class BalanceConnectionChecker {
 
     public static String Checksos(String x) throws IOException, InterruptedException {
 

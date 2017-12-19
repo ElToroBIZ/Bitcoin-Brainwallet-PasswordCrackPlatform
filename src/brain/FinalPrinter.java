@@ -8,7 +8,7 @@ package brain;
 import static brain.AddressGenerator.AddressGenerator;
 import static brain.Main.gens;
 import static brain.PrivateKeyGetter.PrivateKeyGetter;
-import static brain.errorsolver.Checksos;
+import static brain.BalanceConnectionChecker.Checksos;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  *
  * @author Dell
  */
-public class Row {
+public class FinalPrinter {
     
     
     public static void ROWER(String line) throws InterruptedException /*throws IOException, InterruptedException */{
@@ -51,7 +51,7 @@ public class Row {
             System.out.println("BALANCE: " + test1 + " BTC" + "  ADDR: " + TheAddress + "  PRV.KEY:  " + wif3 );
             System.out.println("----------------");
         } catch (IOException ex) {
-            Logger.getLogger(Row.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(FinalPrinter.class.getName()).log(Level.SEVERE, null, ex);
         }
      
      
