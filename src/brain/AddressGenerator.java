@@ -30,7 +30,7 @@ public class AddressGenerator {
         Address s = key.toAddress(mainNet);
         String Stringed = s.toString();
 
-        return newline;
+        return Stringed;
     }
 
 }

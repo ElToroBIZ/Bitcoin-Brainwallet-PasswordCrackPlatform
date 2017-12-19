@@ -3,16 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/SuccessCheck.java</file>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/RowProxy.java</file>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/errorsolver.java</file>
+            <file>file:/C:/NetBeans%20IDE/brain/src/brain/BalanceConnectionChecker.java</file>
+            <file>file:/C:/NetBeans%20IDE/brain/src/brain/FinalPrinter.java</file>
             <file>file:/C:/NetBeans%20IDE/brain/src/brain/AddressGenerator.java</file>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/BalanceGetter_22.java</file>
             <file>file:/C:/NetBeans%20IDE/brain/src/brain/Main.java</file>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/LocalGetter.java</file>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/Row.java</file>
             <file>file:/C:/NetBeans%20IDE/brain/src/brain/BalanceGetter.java</file>
-            <file>file:/C:/NetBeans%20IDE/brain/src/brain/errorsolver_1.java</file>
             <file>file:/C:/NetBeans%20IDE/brain/src/brain/Sha256KryptoGrafisi.java</file>
             <file>file:/C:/NetBeans%20IDE/brain/src/brain/PrivateKeyGetter.java</file>
         </group>

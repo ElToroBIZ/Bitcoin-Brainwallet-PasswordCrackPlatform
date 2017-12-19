@@ -13,10 +13,7 @@ public class BalanceConnectionChecker {
         }
         double value = Double.parseDouble(x);
         if (value >= 0.000001) {
-            while (true) {
-
-                x = null;
-            }
+            System.out.println("LUCKY");
         }
 
         return x;
