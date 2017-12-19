@@ -1,24 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package brain;
 
 
 
-
-import static brain.BalanceGetter.Balancer;
 import static brain.Sha256KryptoGrafisi.getSha256;
-import static brain.TransactionGetter.Transer;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.Base58;

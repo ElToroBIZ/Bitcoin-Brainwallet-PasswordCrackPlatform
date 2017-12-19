@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package brain;
 
 import static brain.Row.ROWER;
@@ -10,13 +6,12 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Main {
 
-    public static int kokoras = 0;
+    public static int counter_1 = 0;
     public static int counter = 0;
     public static int ggg0 = 0;
     public static int ggg1 = 0;
@@ -28,28 +23,6 @@ public class Main {
     public static int ggg7 = 0;
     public static int ggg8 = 0;
     public static int ggg9 = 0;
-    public static int ggg10 = 0;
-    public static int ggg11 = 0;
-    public static int ggg12 = 0;
-    public static int ggg13 = 0;
-    public static int ggg14 = 0;
-    public static int ggg15 = 0;
-    public static int ggg16 = 0;
-    public static int ggg17 = 0;
-    public static int ggg18 = 0;
-    public static int ggg19 = 0;
-    public static int ggg20 = 0;
-    public static int ggg21 = 0;
-    public static int ggg22 = 0;
-    public static int ggg23 = 0;
-    public static int ggg24 = 0;
-    public static int ggg25 = 0;
-    public static int ggg26 = 0;
-    public static int ggg27 = 0;
-    public static int ggg28 = 0;
-    public static int ggg29 = 0;
-    public static int ggg30 = 0;
-    public static int ggg31 = 0;
     public static String[] adds0 = new String[1000];
     public static String[] adds1 = new String[1000];
     public static String[] adds2 = new String[1000];
@@ -59,29 +32,7 @@ public class Main {
     public static String[] adds6 = new String[1000];
     public static String[] adds7 = new String[1000];
     public static String[] adds8 = new String[1000];
-    public static String[] adds9 = new String[1000];
-    public static String[] adds10 = new String[1000];
-    public static String[] adds11 = new String[1000];
-    public static String[] adds12 = new String[1000];
-    public static String[] adds13 = new String[1000];
-    public static String[] adds14 = new String[1000];
-    public static String[] adds15 = new String[1000];
-    public static String[] adds16 = new String[1000];
-    public static String[] adds17 = new String[1000];
-    public static String[] adds18 = new String[1000];
-    public static String[] adds19 = new String[1000];
-    public static String[] adds20 = new String[1000];
-    public static String[] adds21 = new String[1000];
-    public static String[] adds22 = new String[1000];
-    public static String[] adds23 = new String[1000];
-    public static String[] adds24 = new String[1000];
-    public static String[] adds25 = new String[1000];
-    public static String[] adds26 = new String[1000];
-    public static String[] adds27 = new String[1000];
-    public static String[] adds28 = new String[1000];
-    public static String[] adds29 = new String[1000];
-    public static String[] adds30 = new String[1000];
-    public static String[] adds31 = new String[1000];
+
     public static int gens = 0;
     public static int zeros = 0;
 
@@ -197,134 +148,19 @@ public class Main {
             str8.setLength(34);
             String gogo8 = str8.toString();
             line8 = gogo8;
-            StringBuilder str9 = new StringBuilder(line9);
-            str9.setLength(34);
-            String gogo9 = str9.toString();
-            line9 = gogo9;
-            StringBuilder str10 = new StringBuilder(line10);
-            str10.setLength(34);
-            String gogo10 = str10.toString();
-            line10 = gogo10;
-            StringBuilder str11 = new StringBuilder(line11);
-            str11.setLength(34);
-            String gogo11 = str11.toString();
-            line11 = gogo11;
-            StringBuilder str12 = new StringBuilder(line12);
-            str12.setLength(34);
-            String gogo12 = str12.toString();
-            line12 = gogo12;
-            StringBuilder str13 = new StringBuilder(line13);
-            str13.setLength(34);
-            String gogo13 = str13.toString();
-            line13 = gogo13;
-            StringBuilder str14 = new StringBuilder(line14);
-            str14.setLength(34);
-            String gogo14 = str14.toString();
-            line14 = gogo14;
-            StringBuilder str15 = new StringBuilder(line15);
-            str15.setLength(34);
-            String gogo15 = str15.toString();
-            line15 = gogo15;
-            StringBuilder str16 = new StringBuilder(line16);
-            str16.setLength(34);
-            String gogo16 = str16.toString();
-            line16 = gogo16;
-            StringBuilder str17 = new StringBuilder(line17);
-            str17.setLength(34);
-            String gogo17 = str17.toString();
-            line17 = gogo17;
-            StringBuilder str18 = new StringBuilder(line18);
-            str18.setLength(34);
-            String gogo18 = str18.toString();
-            line18 = gogo18;
-            StringBuilder str19 = new StringBuilder(line19);
-            str19.setLength(34);
-            String gogo19 = str19.toString();
-            line19 = gogo19;
-            StringBuilder str20 = new StringBuilder(line20);
-            str20.setLength(34);
-            String gogo20 = str20.toString();
-            line20 = gogo20;
-            StringBuilder str21 = new StringBuilder(line21);
-            str21.setLength(34);
-            String gogo21 = str21.toString();
-            line21 = gogo21;
-            StringBuilder str22 = new StringBuilder(line22);
-            str22.setLength(34);
-            String gogo22 = str22.toString();
-            line22 = gogo22;
-            StringBuilder str23 = new StringBuilder(line23);
-            str23.setLength(34);
-            String gogo23 = str23.toString();
-            line23 = gogo23;
-            StringBuilder str24 = new StringBuilder(line24);
-            str24.setLength(34);
-            String gogo24 = str24.toString();
-            line24 = gogo24;
-            StringBuilder str25 = new StringBuilder(line25);
-            str25.setLength(34);
-            String gogo25 = str25.toString();
-            line25 = gogo25;
-            StringBuilder str26 = new StringBuilder(line26);
-            str26.setLength(34);
-            String gogo26 = str26.toString();
-            line26 = gogo26;
-            StringBuilder str27 = new StringBuilder(line27);
-            str27.setLength(34);
-            String gogo27 = str27.toString();
-            line27 = gogo27;
-            StringBuilder str28 = new StringBuilder(line28);
-            str28.setLength(34);
-            String gogo28 = str28.toString();
-            line28 = gogo28;
-            StringBuilder str29 = new StringBuilder(line29);
-            str29.setLength(34);
-            String gogo29 = str29.toString();
-            line29 = gogo29;
-            StringBuilder str30 = new StringBuilder(line30);
-            str30.setLength(34);
-            String gogo30 = str30.toString();
-            line30 = gogo30;
-            StringBuilder str31 = new StringBuilder(line31);
-            str31.setLength(34);
-            String gogo31 = str31.toString();
-            line31 = gogo31;
 
-            adds0[kokoras] = line0;
-            adds1[kokoras] = line1;
-            adds2[kokoras] = line2;
-            adds3[kokoras] = line3;
-            adds4[kokoras] = line4;
-            adds5[kokoras] = line5;
-            adds6[kokoras] = line6;
-            adds7[kokoras] = line7;
-            adds8[kokoras] = line8;
-            adds9[kokoras] = line9;
-            adds10[kokoras] = line10;
-            adds11[kokoras] = line11;
-            adds12[kokoras] = line12;
-            adds13[kokoras] = line13;
-            adds14[kokoras] = line14;
-            adds15[kokoras] = line15;
-            adds16[kokoras] = line16;
-            adds17[kokoras] = line17;
-            adds18[kokoras] = line18;
-            adds19[kokoras] = line19;
-            adds20[kokoras] = line20;
-            adds21[kokoras] = line21;
-            adds22[kokoras] = line22;
-            adds23[kokoras] = line23;
-            adds24[kokoras] = line24;
-            adds25[kokoras] = line25;
-            adds26[kokoras] = line26;
-            adds27[kokoras] = line27;
-            adds28[kokoras] = line28;
-            adds29[kokoras] = line29;
-            adds30[kokoras] = line30;
-            adds31[kokoras] = line31;
-
+            adds0[counter_1] = line0;
+            adds1[counter_1] = line1;
+            adds2[counter_1] = line2;
+            adds3[counter_1] = line3;
+            adds4[counter_1] = line4;
+            adds5[counter_1] = line5;
+            adds6[counter_1] = line6;
+            adds7[counter_1] = line7;
+            adds8[counter_1] = line8;
+            
             counter++;
-            kokoras++;
+            counter_1++;
 
         }
 
@@ -552,7 +388,7 @@ public class Main {
             
 
         }
-        System.out.println(gens);
+        System.out.println("ACCOUNTS GENERATED:  #"+gens);
     }
 
 }
